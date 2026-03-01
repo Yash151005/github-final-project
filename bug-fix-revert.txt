@@ -1,0 +1,2 @@
+curl -X GET https://api.github.com/repos/Yash151005/git-course-project/pulls  
+"Pull request verified"  
