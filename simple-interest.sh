@@ -6,6 +6,6 @@ read -p "Enter Principal: " P
 read -p "Enter Rate of Interest: " R
 read -p "Enter Time Period: " T
 
-SI=\
+SI=$((P*R*T/100))
 
-echo "Simple Interest = \"
+echo "Simple Interest = $SI"
